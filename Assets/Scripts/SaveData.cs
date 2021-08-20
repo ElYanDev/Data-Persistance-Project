@@ -9,7 +9,6 @@ public class SaveData : MonoBehaviour
 {
     public Text bestScore;
     public Text inputField;
-
     private void Start()
     {
         bestScore.text = "Best Score has " + PlayerPrefs.GetString("recordName") + " whith : " + PlayerPrefs.GetInt("record") + " points";

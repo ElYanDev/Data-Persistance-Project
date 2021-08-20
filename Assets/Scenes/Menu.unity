@@ -450,6 +450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95e340633a094914db60732cf3bfc25a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bestScore: {fileID: 1977847975}
   inputField: {fileID: 641033146}
 --- !u!114 &627572714
 MonoBehaviour:
@@ -1236,7 +1237,7 @@ GameObject:
   - component: {fileID: 1977847976}
   - component: {fileID: 1977847975}
   m_Layer: 5
-  m_Name: Text
+  m_Name: BestScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
